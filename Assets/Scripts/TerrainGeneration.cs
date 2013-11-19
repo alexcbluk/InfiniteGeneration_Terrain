@@ -49,7 +49,7 @@ public class TerrainGeneration : MonoBehaviour {
 		 * Upcoming key:
 		 * Q = Delete all terrains or previous.
 		 */
-		
+		/*
 		if(Input.GetMouseButton(0)){
 			RaycastHit hit;
 			//Converts from Screen co-ordinante from the mouse into world co-ordinate
@@ -71,7 +71,7 @@ public class TerrainGeneration : MonoBehaviour {
 				lowerTerrain(hit.point);	
 			}
 		}
-		
+		*/
 			if (Input.GetKeyDown (KeyCode.R)){
 				GenerateOnEditorTerrain ();
 				ColorEditorTerrain();
